@@ -1,0 +1,134 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+body{
+    background-color: #f5e7e3;   
+}
+/* modificar el logo */
+.image{
+    width: 100%!important;
+    height: 100%;
+}
+/* estilos del menu */
+.sidebar {
+    /* background-image: url(../imagenes/31067591_rm222-mind-29.jpg); */
+    background-color:#D93644;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    font-size: 1.2rem;
+    height: 50rem;
+}
+.sidebar ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(14, 13, 13);
+}
+.sidebar a{
+    color:rgb(19, 18, 18)!important ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',
+    'Lucida Grande', 'Lucida Sans Unicode', 
+    Geneva, Verdana, sans-serif;
+    transition:.3s ease all;
+    cursor: pointer;
+    padding:  10px;
+}
+.sidebar a:hover{
+    transform: scale(.9) perspective(-3seg)!important;
+    background-color:#F2F2F2;
+    color: rgb(0, 0, 0) !important;
+    border-radius: 10px;
+}
+.sidebar h2 {
+    margin-bottom: 20px;
+    color:#fff;
+    font-size:1 rem;
+    text-align: center;
+
+  }
+  .content {
+    padding: 20px;
+  }
+/* modificacion del titulo */
+.container-title{
+    max-width:none!important;
+    min-height:auto !important;
+    margin-top: 1rem;
+}
+h3{
+    margin-left: 10rem !important;
+    color: black;
+    font-size: 1rem;
+    margin-left: 2.5rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.imagen{
+    margin-top: 20px;
+    margin-left: 900px !important;
+    width: 40%;
+    height: 50%;
+}
+
+
+/* diseño de iconos */
+/* usuario */
+.bi-person-circle{
+    margin-left: 85rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    color: black;
+    cursor: pointer;
+}
+.bi-person-circle:hover{
+    transform: scale(1.2);
+    color: #594F4F;
+}
+/* cerrar sesion */
+/* .bi-box-arrow-right{
+    width: 3.5rem;
+    height: 3.5rem;
+    margin-left: 15rem;
+} */
+
+  /* contenedor de los iconos */
+
+/* arreglar el boton de generar factura */
+.btn{
+    display: block;
+    float: right;
+    border: none;
+    background-color: #fc0707;
+    cursor: pointer;
+    transition:.3s ease all;
+    z-index: 1;
+    color:black;
+}
+.btn:hover{
+    transform: scale(.9);
+    background-color: black;
+    color: white;
+}
+/* arreglos de los filtros */
+.historial{
+    margin-left: 320px;
+}   
+
+/* diseño a la tabla */
+.table{
+    text-align: center!important;
+    vertical-align: middle!important;
+    width: 10rem !important;
+}
+table th,.td {
+}
+.table tr{
+    background-color: grey
+}
+.filter-input {
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    border: 1px solid #ced4da;
+}
+

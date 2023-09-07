@@ -1,0 +1,160 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+body{
+    background-color: #f5e7e3;   
+}
+/* modificar el logo */
+.image{
+    width: 100%!important;
+    height: 100%;
+}
+/* estilos del menu */
+.sidebar {
+    /* background-image: url(../imagenes/31067591_rm222-mind-29.jpg); */
+    background-color:#af0513;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    font-size: 1.2rem;
+    height: 50rem;
+    z-index: 3;
+}
+.sidebar ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(14, 13, 13);
+}
+.sidebar a{
+    color:rgb(19, 18, 18)!important ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',
+    'Lucida Grande', 'Lucida Sans Unicode', 
+    Geneva, Verdana, sans-serif;
+    transition:.3s ease all;
+    cursor: pointer;
+    padding:  10px;
+}
+.sidebar a:hover{
+    transform: scale(.9) perspective(-3seg)!important;
+    background-color:#F2F2F2;
+    color: rgb(0, 0, 0) !important;
+    border-radius: 10px;
+}
+.sidebar h2 {
+    margin-bottom: 20px;
+    color:#fff;
+    font-size:1 rem;
+    text-align: center;
+
+  }
+  .content {
+    padding: 20px;
+  }
+/* modificacion del titulo */
+.container-title{
+    max-width:none!important;
+    min-height:auto !important;
+    margin-top: 3rem;
+}
+h3{
+    margin-left: 10rem !important;
+    color: black;
+    font-size: 2.3rem;
+    margin-left: 19rem !important;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    font-weight: 800;
+    width: 50rem;
+}
+h3:hover{
+    color: white;
+}
+.imagen{
+    margin-top: 6rem;
+    margin-left: 800px !important;
+    width: 30%;
+    height: 40%;
+}
+.imagen:hover{
+  opacity: 4px;
+}
+/* diseño de iconos */
+/* usuario */
+.bi-person-circle{
+    margin-left: 85rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    color: black;
+    cursor: pointer;
+}
+.bi-person-circle:hover{
+    transform: scale(1.2);
+    color: #594F4F;
+}
+/* cerrar sesion */
+/* .bi-box-arrow-right{
+    width: 3.5rem;
+    height: 3.5rem;
+    margin-left: 15rem;
+} */
+
+/* animacion en fondo */
+*{
+  margin: 0;
+  padding: 0;
+}
+section{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: #a9a9aa;
+  overflow: hidden;
+}
+section .air{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: url(https://1.bp.blogspot.com/-xQUc-TovqDk/XdxogmMqIRI/AAAAAAAACvI/AizpnE509UMGBcTiLJ58BC6iViPYGYQfQCLcBGAsYHQ/s1600/wave.png);
+  background-size: 1000px 100px
+}
+section .air.air1{
+  animation: wave 30s linear infinite;
+  opacity: 1;
+  animation-delay: 0s;
+  bottom: 0;
+}
+section .air.air2{
+  animation: wave2 15s linear infinite;
+  opacity: 0.5;
+  animation-delay: -5s;
+  bottom: 10px;
+}
+section .air.air3{
+  animation: wave 30s linear infinite;
+  opacity: 0.2;
+  animation-delay: -2s;
+  bottom: 15px;
+}
+section .air.air4{
+  animation: wave2 5s linear infinite;
+  opacity: 0.7;
+  animation-delay: -5s;
+  bottom: 20px;
+}
+@keyframes wave{
+  0%{
+    background-position-x: 0px; 
+  }
+  100%{
+    background-position-x: 1000px; 
+  }
+}
+@keyframes wave2{
+  0%{
+    background-position-x: 0px; 
+  }
+  100%{
+    background-position-x: -1000px; 
+  }
+}

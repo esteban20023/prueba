@@ -1,0 +1,208 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+body{
+    background-color: #f5e7e3;   
+}
+/* modificar el logo */
+.image{
+    width: 100%!important;
+    height: 100%;
+}
+/* estilos del menu */
+.sidebar {
+    /* background-image: url(../imagenes/31067591_rm222-mind-29.jpg); */
+    background-color:#D93644;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    font-size: 1.2rem;
+    height: 50rem;
+}
+.sidebar ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(14, 13, 13);
+}
+.sidebar a{
+    color:rgb(19, 18, 18)!important ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',
+    'Lucida Grande', 'Lucida Sans Unicode', 
+    Geneva, Verdana, sans-serif;
+    transition:.3s ease all;
+    cursor: pointer;
+    padding:  10px;
+}
+.sidebar a:hover{
+    transform: scale(.9) perspective(-3seg)!important;
+    background-color:#F2F2F2;
+    color: rgb(0, 0, 0) !important;
+    border-radius: 10px;
+}
+.sidebar h2 {
+    margin-bottom: 20px;
+    color:#fff;
+    font-size:1 rem;
+    text-align: center;
+
+  }
+  .content {
+    padding: 20px;
+  }
+/* modificacion del titulo */
+.container-title{
+    max-width:none!important;
+    min-height:auto !important;
+    margin-top: 1rem;
+}
+h3{
+    margin-left: 10rem !important;
+    color: black;
+    font-size: 1rem;
+    margin-left: 2.5rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* diseño de iconos */
+/* usuario */
+.bi-person-circle{
+    margin-left: 85rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    color: black;
+    cursor: pointer;
+}
+.bi-person-circle:hover{
+    transform: scale(1.2);
+    color: #594F4F;
+}
+/* cerrar sesion */
+/* .bi-box-arrow-right{
+    width: 3.5rem;
+    height: 3.5rem;
+    margin-left: 15rem;
+} */
+/*creacion de los usuarios*/
+/* #user_form input[type="text"], select option{
+    border:none!important;
+    box-shadow: inset -5px -5px 7px rgba(0,0,0,.2);
+    z-index: 19px;
+} */
+
+/* modificar  el  icono del usuario */
+/* svg{
+    display: flex;
+    margin-left: 85rem;
+}
+.user{
+    margin-top: 1.4rem;
+} */
+
+/* modificacion del incono de salir */
+/* .salir{
+    display: flex;
+    margin-left: 85rem;
+    margin-top: 9px !important;
+    margin-bottom: 50px !important;
+} */
+
+/* modificar el titulo */
+.title{
+    display: flex;
+    margin-left: 45rem;
+    color: rgb(12, 12, 12);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* modificacion del filtro */
+/* .search-box{
+    display: flex;
+    margin-left: 485px;
+    width: 57rem !important;
+    height: auto ;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+} */
+/* modificacion de lo modal para el formulario del empleado */
+/* .btn{
+    margin-left: 38rem;
+    font-size: 1rem !important;
+    background-color: #D93644;
+    color: black;
+    border: none;
+}
+.btn:hover{
+    opacity: 0.8;
+    transition: all ease-out 0.3s;
+    color: white;
+    background-color: black;
+}
+.modal-content{
+    height:auto;
+    width: 50rem;
+    background-color: #F2F2F2;
+} */
+
+/* modificacion de los modales*/
+.modal-body{
+    display: grid;
+    grid-template-columns: 200px 200px 200px ;
+    grid-gap: 2%;
+    margin-left: 5rem !important;
+    padding:.75rem!important;
+    text-align: start;
+}
+
+select{
+    border-radius: 5px !important;
+    height: 2.3rem;
+    width: 12.3rem;
+    border: none;
+}
+#password{
+    border: none;
+    border-radius: 5px !important;
+    height: 2.3rem;
+    width: 12.3rem;
+}
+input{
+    border-radius: 5px !important;
+    border: none !important;
+    background-color: white !important;
+}
+.Cerrar{
+    background-color: black;
+    color: white;
+}
+.Cerrar:hover{
+    cursor: pointer;
+    opacity: 0.6;
+    background-color: #F2F2F2;
+    color: black;
+}
+.CrearEmpleado{
+    cursor: context-menu;
+    background-color: rgb(248, 243, 243);
+    color: rgb(10, 10, 10);
+    text-align: center;
+
+}
+/* modificacion del filtro  del titulo */
+ h2{
+    display: flex;
+    justify-content:center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3rem;
+} 
+.filtro{
+    margin-left: 19rem;
+    width: 25rem; 
+} 
+/*modificar el contenido del dashboard*/
+table{
+    margin-left: 19rem;
+    width: 50rem !important;
+    overflow-x : auto;
+    white-space: nowrap;
+    font-size: 0.8rem;
+}
